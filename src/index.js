@@ -1,6 +1,7 @@
 import Library from './Library';
 import Util from './Util';
 import Event from './Event';
+import Helper from './Helper';
 
 //export default {
 //  Library,
@@ -9,5 +10,6 @@ import Event from './Event';
 export default {
   Util,
   Library,
-  Event
+  Event,
+  Helper
 }

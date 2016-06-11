@@ -2,9 +2,9 @@
  * Created by jason on 2016/6/10.
  */
 
-let __eventSeat__ = {};
+let Event = {};
 
-let Event = (function(q) {
+(function(q) {
 
   var topics = {}, // 回调函数存放的数组
     subUid = -1;
@@ -53,6 +53,6 @@ let Event = (function(q) {
     return false;
   };
 
-}(__eventSeat__));
+}(Event));
 
-export default __eventSeat__;
+export default Event;
