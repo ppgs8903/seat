@@ -4,7 +4,7 @@
 
 let Event = {};
 
-(function(q) {
+(function (q) {
 
   var topics = {}, // 回调函数存放的数组
     subUid = -1;

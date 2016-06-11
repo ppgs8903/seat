@@ -12,4 +12,4 @@ export default {
   Library,
   Event,
   Helper
-}
+};
