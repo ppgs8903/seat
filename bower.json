@@ -1,0 +1,22 @@
+{
+  "name": "seat",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "JasonTao <1648500@qq.com>",
+  "private": false,
+  "main": [
+    "dist/seat.js",
+    "dist/seat.min.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "spec",
+    "test",
+    "tests"
+  ],
+  "moduleType": [
+    "globals"
+  ]
+}
