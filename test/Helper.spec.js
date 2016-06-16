@@ -18,4 +18,17 @@ describe('Helper', () => {
       expect(/[0-9|a-z|A-Z]{32}/g.test(Helper.getUuid())).toBeTruthy();
     });
   });
+
+  describe('getUuid', () => {
+    it('获取UUID.', () => {
+      expect(/[0-9|a-z|A-Z]{32}/g.test(Helper.getUuid())).toBeTruthy();
+    });
+  });
+
+  describe('dealy', () => {
+    it('延迟执行dealy.', () => {
+      expect(Helper.delay(1000, function() {})).toBeTruthy();
+      expect(Helper.delay()).toBeFalsy();
+    });
+  });
 });
