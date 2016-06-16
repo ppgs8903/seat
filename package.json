@@ -55,6 +55,7 @@
     "mocha": "^2.2.5",
     "phantomjs": "^1.9.19",
     "rimraf": "^2.3.4",
+    "util-deprecate": "^1.0.2",
     "webpack": "^1.9.6"
   },
   "devEngines": {
