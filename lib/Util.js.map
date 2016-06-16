@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/Util.js"],"names":[],"mappings":";;;;;;IAAqB,IAAI;WAAJ,IAAI;0BAAJ,IAAI;;;AAAJ,MAAI,CAChB,GAAG,GAAA,aAAC,CAAC,EAAE,CAAC,EAAE;AACf,WAAO,CAAC,GAAG,CAAC,CAAC;GACd;;SAHkB,IAAI;;;qBAAJ,IAAI","file":"Util.js","sourcesContent":["export default class Util {\r\n  static add(a, b) {\r\n    return a + b;\r\n  }\r\n}\r\n"]}
