@@ -40,6 +40,35 @@ let Helper = {};
     return uuid.join('');
   };
 
+  _helper.delay = function () {
+    var isDelay = true;
+    return function (time, cb) {
+      if (isDelay) {
+        isDelay = false;
+        cb();
+        setTimeout(function () {
+          isDelay = true;
+        }, time);
+        return true;
+      }
+      return false;
+    };
+  }();
+
+  //todo 更改实现方式  增加实现方法
+  _helper.promiseDelay = function (time) {
+    new Promise( (resolve, reject) => {
+      setTimeout(function () {
+        try {
+          cb();
+        } catch(e) {
+          reject(e);
+        }
+        resolve();
+      }, time);
+    });
+  };
+
 }(Helper));
 
 export default Helper;
